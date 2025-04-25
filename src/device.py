@@ -13,7 +13,7 @@ def __lldb_init_module(debugger: lldb.SBDebugger, internal_dict: dict) -> None:
 class DeviceCommnad(LLDBCommandBase):
     @classmethod
     def cmdname(cls) -> str:
-        return 'device'
+        return 'devicecli'
 
     @classmethod
     def description(cls) -> str:
