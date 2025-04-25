@@ -180,10 +180,10 @@ ud delete-all
 Displays device information.
 
 ```sh
-device info
+devicecli info
 ```
 
-![device info](./resources/device-info.png)
+![devicecli info](./resources/device-info.png)
 
 ### App Info
 
